@@ -50,7 +50,7 @@ This is the frontend part of the **Vehicle Management System**, which allows mec
    - Create a `.env` file in the root of the project.
    - Add your backend API URL (adjust based on your backend setup):
      ```env
-     VITE_BACKEND_API_URL=http://localhost:5000/api
+     VITE_BACKEND_API_URL=http://localhost:5005/api
      ```
 
 ---
@@ -65,5 +65,5 @@ This is the frontend part of the **Vehicle Management System**, which allows mec
 2. **Open the app in your browser**:
    After running the above command, open your browser and go to:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```

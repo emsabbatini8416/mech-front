@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5005/api/vehicle";
+const API_URL = `${import.meta.env.VITE_BACKEND_API_URL}/vehicle`;
 
 export const getVehicles = async () => {
   const response = await axios.get(API_URL);
